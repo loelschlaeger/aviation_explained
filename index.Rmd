@@ -19,4 +19,4 @@ github-repo: rstudio/bookdown-demo
 
 # Preface
 
-Welcome! This is a growing collection of my knowledge of aviation.
+Welcome to my continuously growing collection of knowledge about aviation.
