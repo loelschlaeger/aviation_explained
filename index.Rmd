@@ -6,13 +6,7 @@ output:
   bookdown::gitbook:
     config:
       sharing: 
-        facebook: no
-        twitter: yes
-        google: no
-        weibo: no
-        instapper: no
-        vk: no
-        all: []
+        null
 documentclass: book
 bibliography: refs.bib
 url: https://loelschlaeger.de/aviation_explained
