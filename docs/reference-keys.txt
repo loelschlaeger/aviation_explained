@@ -4,5 +4,17 @@ instrumentation
 flight-planning
 human-performance
 meterodology
+the-atmosphere
+composition
+the-icao-standard-atmosphere
+wind
+thermodynamics
+clouds-and-fog
+precipitation
+air-masses-and-fronts
+pressure-system
+climatology
+flight-hazards
+meterological-information
 radio-navigation
 communications

@@ -1,1 +1,27 @@
 # Meterodology
+
+## The Atmosphere
+
+### Composition
+
+The atmosphere of the Earth is composed of nitrogen (78\%), oxygen (21\%), argon (0.9\%), carbon dioxide (0.04\%) and trace gases. 
+
+### The ICAO Standard Atmosphere
+
+## Wind
+
+## Thermodynamics
+
+## Clouds and Fog
+
+## Precipitation
+
+## Air Masses and Fronts
+
+## Pressure System
+
+## Climatology
+
+## Flight Hazards
+
+## Meterological Information
