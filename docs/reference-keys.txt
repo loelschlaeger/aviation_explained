@@ -18,3 +18,4 @@ flight-hazards
 meterological-information
 radio-navigation
 communications
+abbreviations

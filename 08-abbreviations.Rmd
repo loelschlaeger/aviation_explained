@@ -1,0 +1,5 @@
+# Abbreviations
+
+PAPI
+
+:   Precision approach path indicator

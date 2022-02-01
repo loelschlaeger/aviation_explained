@@ -5,3 +5,5 @@ bookdown::gitbook:
       before: |
         <li><a href="./">Aviation Explained</a></li>
     edit: https://github.com/loelschlaeger/aviation_explained/edit/master/%s
+    sharing:
+      twitter: true
