@@ -5,8 +5,16 @@ date: "`r Sys.Date()`"
 output: 
   bookdown::gitbook:
     config:
-      sharing: 
-        null
+      sharing:
+        facebook: true
+        github: false
+        twitter: true
+        linkedin: false
+        weibo: false
+        instapaper: false
+        vk: false
+        whatsapp: false
+        all: []
 documentclass: book
 bibliography: refs.bib
 url: https://loelschlaeger.de/aviation_explained
@@ -17,6 +25,6 @@ link-citations: yes
 github-repo: rstudio/bookdown-demo
 ---
 
-# Preface
+# Preface {-}
 
 Welcome to my continuously growing collection of knowledge about aviation.
