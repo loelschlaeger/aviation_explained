@@ -2,7 +2,7 @@ air-law
 instrumentation
 flight-planning
 human-performance
-meterodology
+meteorology
 the-atmosphere
 composition
 the-icao-standard-atmosphere
