@@ -6,7 +6,7 @@ name: render-book
 
 jobs:
   render-website:
-    runs-on: windows-latest
+    runs-on: ubuntu-latest
     env:
       GITHUB_PAT: ${{ secrets.GITHUB_TOKEN }}
     steps:
@@ -21,7 +21,7 @@ jobs:
 
       - uses: r-lib/actions/setup-renv@v1
       
-      - name: Install rmarkdown
+      - name: Install bookdown
         run: Rscript -e 'install.packages("bookdown")'
         
       - name: Install devtools
