@@ -1,4 +1,14 @@
 air-law
+licensing
+rules-of-the-air
+intrument-flight-rules
+holding-procedures
+altimeter-settings
+aircraft-operations
+departure
+approach
+air-traffic-management
+aerodroms
 instrumentation
 flight-planning
 human-performance
