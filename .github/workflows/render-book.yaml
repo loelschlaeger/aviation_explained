@@ -21,16 +21,7 @@ jobs:
 
       - uses: r-lib/actions/setup-renv@v1
       
-      - name: Install bookdown
-        run: Rscript -e 'install.packages("bookdown")'
-        
-      - name: Install devtools
-        run: Rscript -e 'install.packages("devtools")'
-      
-      - name: Install emo
-        run: Rscript -e 'devtools::install_github("hadley/emo")'
-      
-      - name: Render website
+      - name: Render book
         run: Rscript -e 'bookdown::render_book()'
       
       - name: Commit results
