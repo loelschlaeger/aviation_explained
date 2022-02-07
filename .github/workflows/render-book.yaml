@@ -2,10 +2,8 @@ on:
   push:
     paths: ['**.Rmd']
 
-name: render-book
-
 jobs:
-  render-website:
+  render-book:
     runs-on: ubuntu-latest
     env:
       GITHUB_PAT: ${{ secrets.GITHUB_TOKEN }}
