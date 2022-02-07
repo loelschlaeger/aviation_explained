@@ -24,6 +24,9 @@ jobs:
       - name: Install rmarkdown
         run: Rscript -e 'install.packages("bookdown")'
         
+      - name: Install devtools
+        run: Rscript -e 'install.packages("devtools")'
+      
       - name: Install emo
         run: Rscript -e 'devtools::install_github("hadley/emo")'
       
