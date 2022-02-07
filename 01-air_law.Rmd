@@ -1,1 +1,21 @@
-# Air Law
+# Air Law `r emo::ji("law")`
+
+## Licensing
+
+## Rules of the air
+
+### Intrument flight rules
+
+### Holding procedures
+
+### Altimeter settings
+
+## Aircraft operations
+
+### Departure 
+
+### Approach
+
+## Air traffic management
+
+## Aerodroms
