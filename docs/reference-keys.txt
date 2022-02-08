@@ -12,7 +12,7 @@ aerodroms
 instrumentation
 flight-planning
 human-performance
-meteorology
+meteorology-️
 the-atmosphere
 composition
 the-icao-standard-atmosphere
