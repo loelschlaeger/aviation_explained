@@ -1,0 +1,35 @@
+# Abbreviations and Definitions `r emo::ji("glasses")` {-} 
+
+Cross country flight
+
+:   A flight between a point of departure and a point of arrival following a pre-planned route and using standard navigation procedures.
+
+Flight time
+
+:   Ends, when the aeroplane finally comes to a rest at the end of a flight.
+
+Multi-pilot aircraft
+
+:   At least two pilots.
+
+PAPI
+
+:   Precision approach path indicator
+
+Proficiency check
+
+:   Demonstration of skills to revalidate rating.
+:   Operator proficiency checks are for commercial operators. Validity 6 months from last expiring fate if validation took place within 3 months of this expiring date.
+
+Renewal
+
+:   Administrative action taken after a certificate has lapsed.
+
+Revalidation
+
+:   Administrative action taken within period of validation to continue.
+
+Skill test
+
+:   Demonstration of skills for a license.
+

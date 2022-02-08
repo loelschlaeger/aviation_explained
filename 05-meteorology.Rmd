@@ -1,4 +1,4 @@
-# Meteorology
+# Meteorology `r emo::ji("cloud")`
 
 ## The Atmosphere
 

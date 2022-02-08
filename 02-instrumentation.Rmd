@@ -1,1 +1,1 @@
-# Instrumentation
+# Instrumentation `r emo::ji("instrument")`
