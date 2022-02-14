@@ -1,1 +1,1 @@
-# Human Performance `r emo::ji("weight")`
+# `r emo::ji("person_lifting_weights")` Human Performance {#human-performance}
