@@ -1,9 +1,27 @@
 # `r emo::ji("oil_drum")` Units {#units}
 
-## Heights
+There are soo many units in aviation. I still have to find out why. `r emo::ji("person_shrugging")`
 
-## Distances
+## Vertical distance
 
-## Weights
+Vertical distances (like distance from ground) are usually expressed in meters or in feets. 
 
-## Temperatures
+## Horizontal distance
+
+Here we have nautical miles (abbreviated NM), kilometers and meters (usually for distances below 5km).
+
+## Speed
+
+Speed is usually measured in knots. Vertical speed is measured in feet per minute.
+
+## Mass
+
+Kilogram, pound (lb).
+
+## Temperature
+
+Degree Celsius, Fahrenheit, Kelvin.
+
+## Air pressure
+
+Hecto pascals (hPa), millibars, inches of mercury.
