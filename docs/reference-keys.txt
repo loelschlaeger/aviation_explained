@@ -8,6 +8,9 @@ air-pressure
 air-law
 licensing
 rules-of-the-air
+emergency
+communication-failure
+reporting-point
 intrument-flight-rules
 holding-procedures
 altimeter-settings
