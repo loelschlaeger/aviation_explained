@@ -1,25 +1,47 @@
 # Abbreviations and Definitions {-} 
 
+Civil twilight
+
+:   Center of sun's disk is 6 degrees below the horizon.
+
 Cross country flight
 
 :   A flight between a point of departure and a point of arrival following a pre-planned route and using standard navigation procedures.
 
 Flight time
 
-:   Ends, when the aeroplane finally comes to a rest at the end of a flight.
+:   Ends, when the airplane finally comes to a rest at the end of a flight.
 
 Multi-pilot aircraft
 
 :   At least two pilots.
 
-PAPI
+Night time
 
-:   Precision approach path indicator
+: End of evening civil twilight to beginning of morning civil twilight.
+
+Precision approach path indicator (PAPI)
+
+:   Missing.
+:   APAPI
+
+Pilot in command (PIC)
+
+:   Missing.
 
 Proficiency check
 
 :   Demonstration of skills to revalidate rating.
-:   Operator proficiency checks are for commercial operators. Validity 6 months from last expiring fate if validation took place within 3 months of this expiring date.
+:   Operator proficiency checks are for commercial operators. Validity 6 months from last expiring date if validation took place within 3 months of this expiring date.
+
+Rating
+
+:   Missing.
+:   Instrument Rating (IR)...
+
+Reduced vertical separation minimum (RVSM)
+
+:   Missing.
 
 Renewal
 
@@ -31,5 +53,5 @@ Revalidation
 
 Skill test
 
-:   Demonstration of skills for a license.
+:   Demonstration of skills for a license or a rating.
 

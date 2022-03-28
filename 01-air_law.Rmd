@@ -10,17 +10,115 @@ Applicants for IR need 50 hours cross-country flight as PIC with at least 10 hou
 
 ## Rules of the air
 
+### Emergency
+
+Transponder mode A, Squawk 7700
+
+### Communication failure
+
+- VFR: Squawk 7600 and land at nearest suitable airport
+- IFR in VMC: Continue VFR and land directly
+- IFR in IMC: Follow flight plan and land within 30 minutes of ETA
+  - no radar: last assigned speed / level for 20 minutes
+  - radar: last assigned speed / level for 20 minutes
+  
+### Reporting point
+
+- Aircraft ident
+- Position
+- Time
+- Flight level
+- Next position
+- Ensuing point
+
+Memory rule: APTFNE (all pilot take flying navigation exams)
+
 ### Intrument flight rules
+
+RVSM airspace vertical separations:
+
+> Add image.
+
+- < FL 290: 1000 ft 
+- FL 290 - FL 410
+  - in RVSM: 1000 ft
+  - else: 2000 ft (standard)
+- > FL 410: 2000 ft
+
+Semi-circular rules:
+
+> Add image.
+
+0 - 179 degree magnetic: ODD
+180 - 359 degree magnetic: EVEN
+
+Minimum flight level:
+
+- 600 m (2000 ft) above highest obstacle within 8 km in mountainous areas
+- elsewhere 300 m (1000 ft)
 
 ### Holding procedures
 
+Turns: right (standard)
+
+Outbound time:
+- below 14.000 ft: 1min
+- above 14.000 ft: 1,5 min
+
+Bank:
+25 degree or 3 degree per second (whichever is less)
+
+Buffer area: 5NM
+
+Entry procedures:
+
+> Add image.
+
+Memory rule: The name of the holding procedure describes the flight path after the holding fix.
+
+Minimum permissible holding height: 300 m obstc. clearance
+
+Shuttle: climb / descend in holding
+
+adapt timing (tail/headwind) and heading (wind correction angle) to maintain the track
+
 ### Altimeter settings
+
+> Add image of Transition level / layer / altitude
+
+Transition altitude not less than 3000 ft AGL
+
+Calculated height of transition altitude rounded up to next full 1000 ft
+Transition altitudes are published in AIPs or SIDs
 
 ## Aircraft operations
 
 ### Departure 
 
+Obstacle clearance method for departues with no track guidance:
+
+- omnidirectional: restricted sectors specified by bearings and distances
+
+- straight (< 15 degree): track guidance within 20km
+
+- turn (> 15 track): guidance within 10km
+
+Minimum obstacle clearance: 0.8% of horizontal distance in straight departures
+
+Procedure design gradient: 2.5% (at least) + 0,8% (additional margin) = 3,3%
+
 ### Approach
+
+MOC:
+- initial: 300m
+- intermediate: 150m
+- final: 90m (without FAF) and 75m (with FAF)
+
+OCA/H: Obstacle clearance altitude/height
+DA/H: decision altitude/height = OCA/H + margin
+MDA/H: for non-precision: Minimum descend A/H = OCA/H + margin
+
+Segments: arrival, initial, intermediate, final, missed approach
 
 ## Air traffic management
 
