@@ -1,7 +1,5 @@
 # `r emo::ji("police_officer")` Air Law {#air-law}
 
-Puh, sounds dry.
-
 ## Licensing
 
 An instrument rating shall be valid for 1 year. An instrument rating shall be revalidated within 3 months. If instrument rating has not been revalidated within 7 years, need to repeat theory.
@@ -27,11 +25,11 @@ Transponder mode A, Squawk 7700
 - Aircraft ident
 - Position
 - Time
-- Flight level
+- Altitude
 - Next position
 - Ensuing point
 
-Memory rule: APTFNE (all pilot take flying navigation exams)
+Memory rule: APTANE (all pilot take aircraft navigation exams)
 
 ### Intrument flight rules
 
