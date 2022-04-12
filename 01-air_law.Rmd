@@ -108,9 +108,9 @@ Procedure design gradient: 2.5% (at least) + 0,8% (additional margin) = 3,3%
 ### Approach
 
 MOC:
-- initial: 300m
-- intermediate: 150m
-- final: 90m (without FAF) and 75m (with FAF)
+- initial: 300m (1000 ft)
+- intermediate: 150m (500 ft)
+- final: 90m (300ft) without FAF and 75m (250ft) with FAF
 
 OCA/H: Obstacle clearance altitude/height
 DA/H: decision altitude/height = OCA/H + margin
@@ -118,6 +118,65 @@ MDA/H: for non-precision: Minimum descend A/H = OCA/H + margin
 
 Segments: arrival, initial, intermediate, final, missed approach
 
+Aircraft categories based on $V_{AT}$ (IAS at threshold): ...
+
+> Image of approach and missed approach segments
+
+Optimum glide path 3 degree / 5 percent
+
+Circling approach.
+
 ## Air traffic management
 
+Calculate transition level from transition altitude (will be passed to aircraft by ATS):
+TA: 3000 ft, QNH: 990 hPa, (1013 hPa - 990 hPa) * 30 ft/hPa = 660 ft, hence if changing the altimeter reference at 3000 ft to standard pressure would have 3660 ft altitude, hence TL is 4000 ft = FL 40.
+
+2D separation: horizontal and vertical
+
+Longitudinal separation minima:
+
+- on track: 5 (3) min if proceeding aircraft is 20 kts (40kts) faster
+- departure: 3 min if proceeding aircraft is 40 kts faster
+- levels crossed: 15 min (default), 10 min (regular fixes), 5 min (absolute minimum)
+- on same NDB: more than 30 degrees at distance greater than 15 NM from facility
+- same VOR: more than 15 degrees at distance greater than 15 NM from facility
+- DME: 20 NM (10NM if 20 kts faster)
+
+clearance to land: at the latest 2 NM from touchdown
+
+no more speed control: 4 NM or less from touchdown
+
+report significant wind changes:
+- head: 10kts
+- cross: 5kts
+- tail: 2 kts
+
+## AIP
+
+GEN: Services, Sigmet, S and R, location indicators, fees, local regulations
+ENR: communication failures, runway signals, holding/approach/departure procedures
+AD: fueling, meterological information, runway lightning 
+
+## Aeronautical information service AIS
+
+- Movement area: manoeuvring area, aprons, maintenance stands
+- apron: load and unload, parking, refueling, maintenance
+- airside:
+
+AIRAC: Advanced!
+
+### Transponder
+
+## Air Traffic Service ATS
+
+> Insert Table
+
 ## Aerodroms
+
+### Runway
+
+### Lightning
+
+### Signs
+
+### Approach aids
