@@ -21,6 +21,7 @@ air-traffic-management
 aip
 aeronautical-information-service-ais
 transponder
+operations-on-two-parallel-runways
 air-traffic-service-ats
 aerodroms
 runway

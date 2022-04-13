@@ -24,7 +24,7 @@
 <meta name="author" content="Lennart Oelschläger" />
 
 
-<meta name="date" content="2022-04-12" />
+<meta name="date" content="2022-04-13" />
 
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta name="apple-mobile-web-app-capable" content="yes" />
@@ -101,6 +101,7 @@
 <li class="chapter" data-level="2.5" data-path="air-law.html"><a href="air-law.html#aip"><i class="fa fa-check"></i><b>2.5</b> AIP</a></li>
 <li class="chapter" data-level="2.6" data-path="air-law.html"><a href="air-law.html#aeronautical-information-service-ais"><i class="fa fa-check"></i><b>2.6</b> Aeronautical information service AIS</a><ul>
 <li class="chapter" data-level="2.6.1" data-path="air-law.html"><a href="air-law.html#transponder"><i class="fa fa-check"></i><b>2.6.1</b> Transponder</a></li>
+<li class="chapter" data-level="2.6.2" data-path="air-law.html"><a href="air-law.html#operations-on-two-parallel-runways"><i class="fa fa-check"></i><b>2.6.2</b> Operations on two parallel runways:</a></li>
 </ul></li>
 <li class="chapter" data-level="2.7" data-path="air-law.html"><a href="air-law.html#air-traffic-service-ats"><i class="fa fa-check"></i><b>2.7</b> Air Traffic Service ATS</a></li>
 <li class="chapter" data-level="2.8" data-path="air-law.html"><a href="air-law.html#aerodroms"><i class="fa fa-check"></i><b>2.8</b> Aerodroms</a><ul>
@@ -169,7 +170,7 @@
 <li>IFR in IMC: Follow flight plan and land within 30 minutes of ETA
 <ul>
 <li>no radar: last assigned speed / level for 20 minutes</li>
-<li>radar: last assigned speed / level for 20 minutes</li>
+<li>radar: last assigned speed / level for 7 minutes</li>
 </ul></li>
 </ul>
 </div>
@@ -220,10 +221,9 @@
 <p>Outbound time:
 - below 14.000 ft: 1min
 - above 14.000 ft: 1,5 min</p>
-<p>Bank:
-25 degree or 3 degree per second (whichever is less)</p>
+<p>25 degree bank or 3 degree per second (whichever is less)</p>
 <p>Buffer area: 5NM</p>
-<p>Entry procedures:</p>
+<p>Entry procedures (5 degrees flexibility on each side):</p>
 <blockquote>
 <p>Add image.</p>
 </blockquote>
@@ -238,25 +238,30 @@
 <p>Add image of Transition level / layer / altitude</p>
 </blockquote>
 <p>Transition altitude not less than 3000 ft AGL</p>
-<p>Calculated height of transition altitude rounded up to next full 1000 ft
-Transition altitudes are published in AIPs or SIDs</p>
+<p>Calculated height of transition altitude rounded up to next full 1000 ft</p>
+<p>Transition altitudes are published in AIPs or SIDs</p>
 </div>
 </div>
 <div id="aircraft-operations" class="section level2">
 <h2><span class="header-section-number">2.3</span> Aircraft operations</h2>
 <div id="departure" class="section level3">
 <h3><span class="header-section-number">2.3.1</span> Departure</h3>
-<p>Obstacle clearance method for departues with no track guidance:</p>
+<p>Obstacle clearance method for departures with no track guidance:</p>
 <ul>
-<li><p>omnidirectional: restricted sectors specified by bearings and distances</p></li>
-<li><p>straight (&lt; 15 degree): track guidance within 20km</p></li>
-<li><p>turn (&gt; 15 track): guidance within 10km</p></li>
+<li><p>omni-directional: restricted sectors specified by bearings and distances</p></li>
+<li><p>straight (&lt; 15 degree deviation from extended runway): track guidance within 20km</p></li>
+<li><p>turn (&gt; 15 degree): guidance within 10km</p></li>
 </ul>
 <p>Minimum obstacle clearance: 0.8% of horizontal distance in straight departures</p>
 <p>Procedure design gradient: 2.5% (at least) + 0,8% (additional margin) = 3,3%</p>
 </div>
 <div id="approach" class="section level3">
 <h3><span class="header-section-number">2.3.2</span> Approach</h3>
+<p>Segments: arrival, initial, intermediate, final, missed approach</p>
+<blockquote>
+<p>Image of approach and missed approach segments</p>
+</blockquote>
+<p>Optimum glide path 3 degree / 5 percent</p>
 <p>MOC:
 - initial: 300m (1000 ft)
 - intermediate: 150m (500 ft)
@@ -264,12 +269,7 @@ Transition altitudes are published in AIPs or SIDs</p>
 <p>OCA/H: Obstacle clearance altitude/height
 DA/H: decision altitude/height = OCA/H + margin
 MDA/H: for non-precision: Minimum descend A/H = OCA/H + margin</p>
-<p>Segments: arrival, initial, intermediate, final, missed approach</p>
 <p>Aircraft categories based on <span class="math inline">\(V_{AT}\)</span> (IAS at threshold): …</p>
-<blockquote>
-<p>Image of approach and missed approach segments</p>
-</blockquote>
-<p>Optimum glide path 3 degree / 5 percent</p>
 <p>Circling approach.</p>
 </div>
 </div>
@@ -310,27 +310,193 @@ AD: fueling, meterological information, runway lightning</p>
 <p>AIRAC: Advanced!</p>
 <div id="transponder" class="section level3">
 <h3><span class="header-section-number">2.6.1</span> Transponder</h3>
+<ul>
+<li>Std Squawk:
+<ul>
+<li>IFR: 2000</li>
+<li>VFR: 7000</li>
+<li>unop: 0000</li>
+</ul></li>
+</ul>
+<p>Transponder failure before dep.: Permission to proceed to nearest suitable airport for repair.</p>
+</div>
+<div id="operations-on-two-parallel-runways" class="section level3">
+<h3><span class="header-section-number">2.6.2</span> Operations on two parallel runways:</h3>
+<ul>
+<li>segregate: one only departures, one only approaches</li>
+<li>semi-mixed: one both, one only one</li>
+<li>mixed: both on both</li>
+<li>progressive: does not exist</li>
+</ul>
 </div>
 </div>
 <div id="air-traffic-service-ats" class="section level2">
 <h2><span class="header-section-number">2.7</span> Air Traffic Service ATS</h2>
-<blockquote>
-<p>Insert Table</p>
-</blockquote>
+<table>
+<thead>
+<tr class="header">
+<th>Class</th>
+<th>Type</th>
+<th>Separation</th>
+<th>Service</th>
+<th>Speed Limit</th>
+<th>Radio</th>
+<th>Clearance</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>A</td>
+<td>IFR</td>
+<td>from all</td>
+<td>ATC</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="even">
+<td>B</td>
+<td>IFR</td>
+<td>from all</td>
+<td>ATC</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="odd">
+<td></td>
+<td>VFR</td>
+<td>from all</td>
+<td>ATC</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="even">
+<td>C</td>
+<td>IFR</td>
+<td>from all</td>
+<td>ATC</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="odd">
+<td></td>
+<td>VFR</td>
+<td>from IFR</td>
+<td>ATC</td>
+<td>yes*</td>
+<td></td>
+<td></td>
+</tr>
+<tr class="even">
+<td>D</td>
+<td>IFR</td>
+<td>from IFR</td>
+<td>ATC</td>
+<td>yes*</td>
+<td></td>
+<td></td>
+</tr>
+<tr class="odd">
+<td></td>
+<td>VFR</td>
+<td></td>
+<td>FIS</td>
+<td>yes*</td>
+<td></td>
+<td></td>
+</tr>
+<tr class="even">
+<td>E</td>
+<td>IFR</td>
+<td>from IFR</td>
+<td>ATC</td>
+<td>yes*</td>
+<td></td>
+<td>no</td>
+</tr>
+<tr class="odd">
+<td></td>
+<td>VFR</td>
+<td></td>
+<td>FIS</td>
+<td>yes*</td>
+<td>no</td>
+<td>no</td>
+</tr>
+<tr class="even">
+<td>F</td>
+<td>IFR</td>
+<td>from IFR</td>
+<td>FIS</td>
+<td>yes*</td>
+<td></td>
+<td>no</td>
+</tr>
+<tr class="odd">
+<td></td>
+<td>VFR</td>
+<td></td>
+<td>FIS</td>
+<td>yes*</td>
+<td>no</td>
+<td>no</td>
+</tr>
+<tr class="even">
+<td>G</td>
+<td>IFR</td>
+<td></td>
+<td>FIS</td>
+<td>yes*</td>
+<td></td>
+<td>no</td>
+</tr>
+<tr class="odd">
+<td></td>
+<td>VFR</td>
+<td></td>
+<td>FIS</td>
+<td>yes*</td>
+<td>no</td>
+<td>no</td>
+</tr>
+</tbody>
+</table>
+<p>*Speed Limit: Below 10000ft AMSL is 250 kt IAS.</p>
 </div>
 <div id="aerodroms" class="section level2">
 <h2><span class="header-section-number">2.8</span> Aerodroms</h2>
 <div id="runway" class="section level3">
 <h3><span class="header-section-number">2.8.1</span> Runway</h3>
+<p>TODA: Take-off distance avaiable (TORA + clearway)
+TORA: Take-off run available
+ASDA: Accelerated stop distance available (TORA + stopway)
+RESA: Runway end safety area (at the end of the runway strip)
+LDA: Landing distance available</p>
+<blockquote>
+<p>Add Image.</p>
+</blockquote>
 </div>
 <div id="lightning" class="section level3">
 <h3><span class="header-section-number">2.8.2</span> Lightning</h3>
+<blockquote>
+<p>Add Image.</p>
+</blockquote>
 </div>
 <div id="signs" class="section level3">
 <h3><span class="header-section-number">2.8.3</span> Signs</h3>
+<p>Mandatory instructions: White inscription on red background</p>
+<p>C: Visiting pilots should report</p>
+<p>Location signs: Yellow writing on black background</p>
 </div>
 <div id="approach-aids" class="section level3">
 <h3><span class="header-section-number">2.8.4</span> Approach aids</h3>
+<p>PAPI</p>
+<p>APAPI</p>
+<p>Approach lighting system: Simple (SALS) and precision (PALS)</p>
+<p>Number of runway stripes: round up runway width / 4</p>
 
 </div>
 </div>
