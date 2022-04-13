@@ -18,7 +18,7 @@ Transponder mode A, Squawk 7700
 - IFR in VMC: Continue VFR and land directly
 - IFR in IMC: Follow flight plan and land within 30 minutes of ETA
   - no radar: last assigned speed / level for 20 minutes
-  - radar: last assigned speed / level for 20 minutes
+  - radar: last assigned speed / level for 7 minutes
   
 ### Reporting point
 
@@ -63,12 +63,11 @@ Outbound time:
 - below 14.000 ft: 1min
 - above 14.000 ft: 1,5 min
 
-Bank:
-25 degree or 3 degree per second (whichever is less)
+25 degree bank or 3 degree per second (whichever is less)
 
 Buffer area: 5NM
 
-Entry procedures:
+Entry procedures (5 degrees flexibility on each side):
 
 > Add image.
 
@@ -87,25 +86,32 @@ adapt timing (tail/headwind) and heading (wind correction angle) to maintain the
 Transition altitude not less than 3000 ft AGL
 
 Calculated height of transition altitude rounded up to next full 1000 ft
+
 Transition altitudes are published in AIPs or SIDs
 
 ## Aircraft operations
 
 ### Departure 
 
-Obstacle clearance method for departues with no track guidance:
+Obstacle clearance method for departures with no track guidance:
 
-- omnidirectional: restricted sectors specified by bearings and distances
+- omni-directional: restricted sectors specified by bearings and distances
 
-- straight (< 15 degree): track guidance within 20km
+- straight (< 15 degree deviation from extended runway): track guidance within 20km
 
-- turn (> 15 track): guidance within 10km
+- turn (> 15 degree): guidance within 10km
 
 Minimum obstacle clearance: 0.8% of horizontal distance in straight departures
 
 Procedure design gradient: 2.5% (at least) + 0,8% (additional margin) = 3,3%
 
 ### Approach
+
+Segments: arrival, initial, intermediate, final, missed approach
+
+> Image of approach and missed approach segments
+
+Optimum glide path 3 degree / 5 percent
 
 MOC:
 - initial: 300m (1000 ft)
@@ -116,13 +122,7 @@ OCA/H: Obstacle clearance altitude/height
 DA/H: decision altitude/height = OCA/H + margin
 MDA/H: for non-precision: Minimum descend A/H = OCA/H + margin
 
-Segments: arrival, initial, intermediate, final, missed approach
-
 Aircraft categories based on $V_{AT}$ (IAS at threshold): ...
-
-> Image of approach and missed approach segments
-
-Optimum glide path 3 degree / 5 percent
 
 Circling approach.
 
@@ -167,16 +167,70 @@ AIRAC: Advanced!
 
 ### Transponder
 
+- Std Squawk: 
+  - IFR: 2000
+  - VFR: 7000
+  - unop: 0000
+  
+Transponder failure before dep.: Permission to proceed to nearest suitable airport for repair.
+
+### Operations on two parallel runways:
+
+- segregate: one only departures, one only approaches
+- semi-mixed: one both, one only one
+- mixed: both on both
+- progressive: does not exist
+
 ## Air Traffic Service ATS
 
-> Insert Table
+| Class | Type  | Separation |  Service | Speed Limit | Radio | Clearance |
+| ----- | ----- | ---------- | -------- | ----------- | ----- | --------- | 
+| A     | IFR   | from all   | ATC      |             |       |           |     
+| B     | IFR   | from all   | ATC      |             |       |           | 
+|       | VFR   | from all   | ATC      |             |       |           | 
+| C     | IFR   | from all   | ATC      |             |       |           |
+|       | VFR   | from IFR   | ATC      | yes*        |       |           |
+| D     | IFR   | from IFR   | ATC      | yes*        |       |           |
+|       | VFR   |            | FIS      | yes*        |       |           |
+| E     | IFR   | from IFR   | ATC      | yes*        |       | no        | 
+|       | VFR   |            | FIS      | yes*        | no    | no        | 
+| F     | IFR   | from IFR   | FIS      | yes*        |       | no        | 
+|       | VFR   |            | FIS      | yes*        | no    | no        | 
+| G     | IFR   |            | FIS      | yes*        |       | no        | 
+|       | VFR   |            | FIS      | yes*        | no    | no        | 
+
+*Speed Limit: Below 10000ft AMSL is 250 kt IAS.
 
 ## Aerodroms
 
 ### Runway
 
+TODA: Take-off distance avaiable (TORA + clearway)
+TORA: Take-off run available
+ASDA: Accelerated stop distance available (TORA + stopway)
+RESA: Runway end safety area (at the end of the runway strip)
+LDA: Landing distance available 
+
+> Add Image.
+
 ### Lightning
+
+> Add Image.
 
 ### Signs
 
+Mandatory instructions: White inscription on red background
+
+C: Visiting pilots should report
+
+Location signs: Yellow writing on black background
+
 ### Approach aids
+
+PAPI
+
+APAPI
+
+Approach lighting system: Simple (SALS) and precision (PALS)
+
+Number of runway stripes: round up runway width / 4
