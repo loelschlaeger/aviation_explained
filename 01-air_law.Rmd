@@ -69,7 +69,17 @@ Buffer area: 5NM
 
 Entry procedures (5 degrees flexibility on each side):
 
-> Add image.
+```{r, echo=FALSE, out.width="70%", fig.cap="Direct holding entry.", fig.align='center'}
+knitr::include_graphics("img/holding_direct.jpg")
+```
+
+```{r, echo=FALSE, out.width="70%", fig.cap="Teardrop holding entry.", fig.align='center'}
+knitr::include_graphics("img/holding_teardrop.jpg")
+```
+
+```{r, echo=FALSE, out.width="70%", fig.cap="Parallel holding entry.", fig.align='center'}
+knitr::include_graphics("img/holding_parallel.jpg")
+```
 
 Memory rule: The name of the holding procedure describes the flight path after the holding fix.
 
