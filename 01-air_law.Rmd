@@ -1,3 +1,11 @@
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  fig.align = "center",
+  echo = FALSE,
+  out.width="70%"
+)
+```
+
 # `r emo::ji("police_officer")` Air Law {#air-law}
 
 ## Licensing
@@ -69,16 +77,16 @@ Buffer area: 5NM
 
 Entry procedures (5 degrees flexibility on each side):
 
-```{r, echo=FALSE, out.width="70%", fig.cap="Direct holding entry.", fig.align='center'}
-knitr::include_graphics("img/holding_direct.jpg")
+```{r, fig.cap="Direct holding entry."}
+knitr::include_graphics("img/holding_direct.png")
 ```
 
-```{r, echo=FALSE, out.width="70%", fig.cap="Teardrop holding entry.", fig.align='center'}
-knitr::include_graphics("img/holding_teardrop.jpg")
+```{r, fig.cap="Teardrop holding entry."}
+knitr::include_graphics("img/holding_teardrop.png")
 ```
 
-```{r, echo=FALSE, out.width="70%", fig.cap="Parallel holding entry.", fig.align='center'}
-knitr::include_graphics("img/holding_parallel.jpg")
+```{r, fig.cap="Parallel holding entry."}
+knitr::include_graphics("img/holding_parallel.png")
 ```
 
 Memory rule: The name of the holding procedure describes the flight path after the holding fix.
@@ -117,9 +125,27 @@ Procedure design gradient: 2.5% (at least) + 0,8% (additional margin) = 3,3%
 
 ### Approach
 
-Segments: arrival, initial, intermediate, final, missed approach
+The approach consists of the following segments:
 
-> Image of approach and missed approach segments
+- arrival
+
+- initial
+
+- intermediate (ends at the FAF/FAP, the FAP is at a maximum (minimum, optimum) of 10 (3, 5) NM from threshold)
+
+- final
+
+- missed approach, which is separated again in three segments:
+
+  - initial 
+  
+  - intermediate (ends where 50m obstacle clearance is obtained and can be maintained)
+  
+  - final
+
+```{r, fig.cap="Approach segments.", }
+knitr::include_graphics("img/approach_steps.png")
+```
 
 Optimum glide path 3 degree / 5 percent
 
@@ -202,7 +228,7 @@ Transponder failure before dep.: Permission to proceed to nearest suitable airpo
 |       | VFR   | from IFR   | ATC      | yes*        |       |           |
 | D     | IFR   | from IFR   | ATC      | yes*        |       |           |
 |       | VFR   |            | FIS      | yes*        |       |           |
-| E     | IFR   | from IFR   | ATC      | yes*        |       | no        | 
+| E     | IFR   | from IFR   | ATC      | yes*        |       |           | 
 |       | VFR   |            | FIS      | yes*        | no    | no        | 
 | F     | IFR   | from IFR   | FIS      | yes*        |       | no        | 
 |       | VFR   |            | FIS      | yes*        | no    | no        | 
@@ -221,11 +247,15 @@ ASDA: Accelerated stop distance available (TORA + stopway)
 RESA: Runway end safety area (at the end of the runway strip)
 LDA: Landing distance available 
 
-> Add Image.
+```{r, fig.cap="Runway zones."}
+knitr::include_graphics("img/runway_zones.png")
+```
 
 ### Lightning
 
-> Add Image.
+```{r, fig.cap="Runway lights."}
+knitr::include_graphics("img/runway_lightning.png")
+```
 
 ### Signs
 
