@@ -24,7 +24,7 @@
 <meta name="author" content="Lennart Oelschläger" />
 
 
-<meta name="date" content="2022-04-17" />
+<meta name="date" content="2022-04-22" />
 
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta name="apple-mobile-web-app-capable" content="yes" />
@@ -224,20 +224,20 @@
 <p>25 degree bank or 3 degree per second (whichever is less)</p>
 <p>Buffer area: 5NM</p>
 <p>Entry procedures (5 degrees flexibility on each side):</p>
-<div class="figure" style="text-align: center"><span style="display:block;" id="fig:unnamed-chunk-1"></span>
-<img src="img/holding_direct.jpg" alt="Direct holding entry." width="70%" />
+<div class="figure" style="text-align: center"><span style="display:block;" id="fig:unnamed-chunk-2"></span>
+<img src="img/holding_direct.png" alt="Direct holding entry." width="70%" />
 <p class="caption">
 Figure 2.1: Direct holding entry.
 </p>
 </div>
-<div class="figure" style="text-align: center"><span style="display:block;" id="fig:unnamed-chunk-2"></span>
-<img src="img/holding_teardrop.jpg" alt="Teardrop holding entry." width="70%" />
+<div class="figure" style="text-align: center"><span style="display:block;" id="fig:unnamed-chunk-3"></span>
+<img src="img/holding_teardrop.png" alt="Teardrop holding entry." width="70%" />
 <p class="caption">
 Figure 2.2: Teardrop holding entry.
 </p>
 </div>
-<div class="figure" style="text-align: center"><span style="display:block;" id="fig:unnamed-chunk-3"></span>
-<img src="img/holding_parallel.jpg" alt="Parallel holding entry." width="70%" />
+<div class="figure" style="text-align: center"><span style="display:block;" id="fig:unnamed-chunk-4"></span>
+<img src="img/holding_parallel.png" alt="Parallel holding entry." width="70%" />
 <p class="caption">
 Figure 2.3: Parallel holding entry.
 </p>
@@ -272,10 +272,25 @@ Figure 2.3: Parallel holding entry.
 </div>
 <div id="approach" class="section level3">
 <h3><span class="header-section-number">2.3.2</span> Approach</h3>
-<p>Segments: arrival, initial, intermediate, final, missed approach</p>
-<blockquote>
-<p>Image of approach and missed approach segments</p>
-</blockquote>
+<p>The approach consists of the following segments:</p>
+<ul>
+<li><p>arrival</p></li>
+<li><p>initial</p></li>
+<li><p>intermediate (ends at the FAF/FAP, the FAP is at a maximum (minimum, optimum) of 10 (3, 5) NM from threshold)</p></li>
+<li><p>final</p></li>
+<li><p>missed approach, which is separated again in three segments:</p>
+<ul>
+<li><p>initial</p></li>
+<li><p>intermediate (ends where 50m obstacle clearance is obtained and can be maintained)</p></li>
+<li><p>final</p></li>
+</ul></li>
+</ul>
+<div class="figure" style="text-align: center"><span style="display:block;" id="fig:unnamed-chunk-5"></span>
+<img src="img/approach_steps.png" alt="Approach segments." width="70%" />
+<p class="caption">
+Figure 2.4: Approach segments.
+</p>
+</div>
 <p>Optimum glide path 3 degree / 5 percent</p>
 <p>MOC:
 - initial: 300m (1000 ft)
@@ -430,7 +445,7 @@ AD: fueling, meterological information, runway lightning</p>
 <td>ATC</td>
 <td>yes*</td>
 <td></td>
-<td>no</td>
+<td></td>
 </tr>
 <tr class="odd">
 <td></td>
@@ -490,15 +505,21 @@ TORA: Take-off run available
 ASDA: Accelerated stop distance available (TORA + stopway)
 RESA: Runway end safety area (at the end of the runway strip)
 LDA: Landing distance available</p>
-<blockquote>
-<p>Add Image.</p>
-</blockquote>
+<div class="figure" style="text-align: center"><span style="display:block;" id="fig:unnamed-chunk-6"></span>
+<img src="img/runway_zones.png" alt="Runway zones." width="70%" />
+<p class="caption">
+Figure 2.5: Runway zones.
+</p>
+</div>
 </div>
 <div id="lightning" class="section level3">
 <h3><span class="header-section-number">2.8.2</span> Lightning</h3>
-<blockquote>
-<p>Add Image.</p>
-</blockquote>
+<div class="figure" style="text-align: center"><span style="display:block;" id="fig:unnamed-chunk-7"></span>
+<img src="img/runway_lightning.png" alt="Runway lights." width="70%" />
+<p class="caption">
+Figure 2.6: Runway lights.
+</p>
+</div>
 </div>
 <div id="signs" class="section level3">
 <h3><span class="header-section-number">2.8.3</span> Signs</h3>
