@@ -1,5 +1,13 @@
 # Abbreviations and Definitions {-} 
 
+Airside
+
+:   The movement area of an airport, adjacent terrain and buildings, access to which is controlled.
+
+Apron
+
+:   A special area on of an airport designed for loading, unloading, parking, refueling, and maintaining an aircraft.
+
 Civil twilight
 
 :   Center of sun's disk is 6 degrees below the horizon.
@@ -15,6 +23,10 @@ Essential traffic
 Flight time
 
 :   Ends, when the airplane finally comes to a rest at the end of a flight.
+
+Movement area
+
+:   The maneuvering area, aprons, maintenance stands and any other part of the aerodrome intended for the surface movement of aircraft.
 
 Multi-pilot aircraft
 
