@@ -1,1 +1,13 @@
 # `r emo::ji("satellite_antenna")` Radio Navigation {#radio-navigation}
+
+Relative bearing to station (ADF, VOR), radial from station (VOR), distance from station (DME), actual position (GPS, RNAV, INS).
+
+## VOR
+
+- very high frequency omnidirectional range
+
+- VHF, 108 - 117.975 MHz (just below aviation voice channels)
+
+- VHF carrier wave modulated by two LF signals, using phase difference comparison between them to signifz aircraft direction from transmitting station as one of 360 radials from it
+
+### DME

@@ -10,36 +10,17 @@ knitr::opts_chunk$set(
 
 ## Licensing
 
-An instrument rating shall be valid for 1 year. An instrument rating shall be revalidated within 3 months. If instrument rating has not been revalidated within 7 years, need to repeat theory.
-
-Applicants for IR need 50 hours cross-country flight as PIC with at least 10 hour in the relevant aircraft category.
+You need a license to fly as a crew member in any aircraft. The start is usually the private pilot license (PPL). If you want to get paid for flying, you need a commercial pilot license (CPL). Furthermore, you need so-called ratings for certain privileges or for flying special aircraft types. For example, you an instrument rating is required for flying in bad weather. All the rules for obtaining a license or rating and for revalidation are stated by [part flight crew licensing (FCL) of EU regulation 1178](https://part-aero.com/#part-fcl).
 
 ## Rules of the air
 
-### Emergency
+Another EU regulation numbered 923 formulates [standardized european rules of the air](https://www.easa.europa.eu/regulations/sera-standardised-european-rules-air) (short SERA). I list some of them below.
 
-Transponder mode A, Squawk 7700
+### Controlled flights
 
-### Communication failure
+### Visual flight rules
 
-- VFR: Squawk 7600 and land at nearest suitable airport
-- IFR in VMC: Continue VFR and land directly
-- IFR in IMC: Follow flight plan and land within 30 minutes of ETA
-  - no radar: last assigned speed / level for 20 minutes
-  - radar: last assigned speed / level for 7 minutes
-  
-### Reporting point
-
-- Aircraft ident
-- Position
-- Time
-- Altitude
-- Next position
-- Ensuing point
-
-Memory rule: APTANE (all pilot take aircraft navigation exams)
-
-### Intrument flight rules
+### Instrument flight rules
 
 RVSM airspace vertical separations:
 
@@ -62,6 +43,27 @@ Minimum flight level:
 
 - 600 m (2000 ft) above highest obstacle within 8 km in mountainous areas
 - elsewhere 300 m (1000 ft)
+
+### Position reports
+
+- Aircraft ident
+- Position
+- Time
+- Altitude
+- Next position
+- Ensuing point
+
+Memory rule: APTANE (all pilot take aircraft navigation exams)
+
+### Communication failure
+
+- VFR: Squawk 7600 and land at nearest suitable airport
+- IFR in VMC: Continue VFR and land directly
+- IFR in IMC: Follow flight plan and land within 30 minutes of ETA
+  - no radar: last assigned speed / level for 20 minutes
+  - radar: last assigned speed / level for 7 minutes
+  
+In an emergency, Transponder mode A, Squawk 7700
 
 ### Holding procedures
 
@@ -105,67 +107,12 @@ Transition altitude not less than 3000 ft AGL
 
 Calculated height of transition altitude rounded up to next full 1000 ft
 
-Transition altitudes are published in AIPs or SIDs
-
-## Aircraft operations
-
-### Departure 
-
-Obstacle clearance method for departures with no track guidance:
-
-- omni-directional: restricted sectors specified by bearings and distances
-
-- straight (< 15 degree deviation from extended runway): track guidance within 20km
-
-- turn (> 15 degree): guidance within 10km
-
-Minimum obstacle clearance: 0.8% of horizontal distance in straight departures
-
-Procedure design gradient: 2.5% (at least) + 0,8% (additional margin) = 3,3%
-
-### Approach
-
-The approach consists of the following segments:
-
-- arrival
-
-- initial
-
-- intermediate (ends at the FAF/FAP, the FAP is at a maximum (minimum, optimum) of 10 (3, 5) NM from threshold)
-
-- final
-
-- missed approach, which is separated again in three segments:
-
-  - initial 
-  
-  - intermediate (ends where 50m obstacle clearance is obtained and can be maintained)
-  
-  - final
-
-```{r, fig.cap="Approach segments.", }
-knitr::include_graphics("img/approach_steps.png")
-```
-
-Optimum glide path 3 degree / 5 percent
-
-MOC:
-- initial: 300m (1000 ft)
-- intermediate: 150m (500 ft)
-- final: 90m (300ft) without FAF and 75m (250ft) with FAF
-
-OCA/H: Obstacle clearance altitude/height
-DA/H: decision altitude/height = OCA/H + margin
-MDA/H: for non-precision: Minimum descend A/H = OCA/H + margin
-
-Aircraft categories based on $V_{AT}$ (IAS at threshold): ...
-
-Circling approach.
-
-## Air traffic management
-
 Calculate transition level from transition altitude (will be passed to aircraft by ATS):
 TA: 3000 ft, QNH: 990 hPa, (1013 hPa - 990 hPa) * 30 ft/hPa = 660 ft, hence if changing the altimeter reference at 3000 ft to standard pressure would have 3660 ft altitude, hence TL is 4000 ft = FL 40.
+
+Transition altitudes are published in AIPs or SIDs
+
+## Air traffic management
 
 2D separation: horizontal and vertical
 
@@ -274,3 +221,59 @@ APAPI
 Approach lighting system: Simple (SALS) and precision (PALS)
 
 Number of runway stripes: round up runway width / 4
+
+
+## Aircraft operations
+
+### Departure 
+
+Obstacle clearance method for departures with no track guidance:
+
+- omni-directional: restricted sectors specified by bearings and distances
+
+- straight (< 15 degree deviation from extended runway): track guidance within 20km
+
+- turn (> 15 degree): guidance within 10km
+
+Minimum obstacle clearance: 0.8% of horizontal distance in straight departures
+
+Procedure design gradient: 2.5% (at least) + 0,8% (additional margin) = 3,3%
+
+### Approach
+
+The approach consists of the following segments:
+
+- arrival
+
+- initial
+
+- intermediate (ends at the FAF/FAP, the FAP is at a maximum (minimum, optimum) of 10 (3, 5) NM from threshold)
+
+- final
+
+- missed approach, which is separated again in three segments:
+
+  - initial 
+  
+  - intermediate (ends where 50m obstacle clearance is obtained and can be maintained)
+  
+  - final
+
+```{r, fig.cap="Approach segments.", }
+knitr::include_graphics("img/approach_steps.png")
+```
+
+Optimum glide path 3 degree / 5 percent
+
+MOC:
+- initial: 300m (1000 ft)
+- intermediate: 150m (500 ft)
+- final: 90m (300ft) without FAF and 75m (250ft) with FAF
+
+OCA/H: Obstacle clearance altitude/height
+DA/H: decision altitude/height = OCA/H + margin
+MDA/H: for non-precision: Minimum descend A/H = OCA/H + margin
+
+Aircraft categories based on $V_{AT}$ (IAS at threshold): ...
+
+Circling approach.
