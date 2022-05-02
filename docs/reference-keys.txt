@@ -14,15 +14,13 @@ air-pressure
 air-law
 licensing
 rules-of-the-air
-emergency
+controlled-flights
+visual-flight-rules
+instrument-flight-rules
+position-reports
 communication-failure
-reporting-point
-intrument-flight-rules
 holding-procedures
 altimeter-settings
-aircraft-operations
-departure
-approach
 air-traffic-management
 aip
 aeronautical-information-service-ais
@@ -34,6 +32,9 @@ runway
 lightning
 signs
 approach-aids
+aircraft-operations
+departure
+approach
 instrumentation
 flight-planning
 human-performance
@@ -51,4 +52,6 @@ climatology
 flight-hazards
 meterological-information
 radio-navigation
+vor
+dme
 communications
