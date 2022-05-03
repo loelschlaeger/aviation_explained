@@ -14,10 +14,9 @@ air-pressure
 air-law
 licensing
 rules-of-the-air
-controlled-flights
-visual-flight-rules
-instrument-flight-rules
-position-reports
+visual-versus-instrument-flight-rules
+position-reporting
+vertical-seperations
 communication-failure
 holding-procedures
 altimeter-settings
@@ -37,6 +36,13 @@ departure
 approach
 instrumentation
 flight-planning
+flight-plan
+item-8-flight-rules-type-of-flight
+item-9-number-and-type-of-aircraft-wake-turbulence-category
+item-10-equipment
+item-13-departure-aerodrome
+item-16-flight-time
+item-18-other-information
 human-performance
 meteorology
 the-atmosphere
