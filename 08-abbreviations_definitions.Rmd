@@ -1,5 +1,7 @@
 # Abbreviations and Definitions {-} 
 
+
+
 Airside
 
 :   The movement area of an airport, adjacent terrain and buildings, access to which is controlled.
@@ -11,6 +13,10 @@ Apron
 Civil twilight
 
 :   Center of sun's disk is 6 degrees below the horizon.
+
+Controlled flight
+
+:   Any flight which is subject to an air traffic control clearance, i.e. authorization for an aircraft to proceed under conditions specified by an air traffic control unit.
 
 Cross country flight
 

@@ -1,1 +1,31 @@
 # `r emo::ji("calendar")` Flight Planning {#flight-planning}
+
+## Flight plan
+
+Filing a flight plan - for some flights you have to (IFR flights, international flights), for all flights you can (to facilitate rescue operations). A flight plan is a standardized sheet of information on an intended flight provided to air traffic control, see [SERA.4001](https://part-aero.com/#part-sera/SERA.4001). They can be submitted [online](https://ais.dfs.de/), via telephone, or even in-fight via radio.
+
+Below is an example:
+
+### Item 8: Flight rules, Type of flight
+
+The flight rule goes into the first part of box 8 and can be I (IFR), V (VFR), Y (IFR changes to VFR), Z (VFR changes to IFR). Next comes the type of flight, which can be S (scheduled), N (non-scheduled), G (general aviation), M (military), X (others).
+
+### Item 9: Number and type of aircraft, Wake turbulence category
+
+Here you would insert the number of aircraft if you fly in a formation. Next the [ICAO code for the aircraft type](https://en.wikipedia.org/wiki/List_of_aircraft_type_designators), and then the wake turbulence category: H for heavy (), M for medium (), and L for light () based on the maximum certified takeoff mass.
+
+### Item 10: Equipment
+
+Letters indicating the communication, navigation, and transponder equipment. There are many options: N for none, S for standard equipment (VHF, ADF, VOR, ILS), D for DME, C for mode C transponder, etc.
+
+### Item 13: Departure aerodrome
+
+Use the [ICAO code](https://en.wikipedia.org/wiki/ICAO_airport_code) or ZZZZ (with an entry in item 18) if there is none.
+
+### Item 16: Flight time
+
+takeoff until IAF
+
+### Item 18: Other information
+
+Critical life (STS/MEDEVAC), transport to hospital (STS/HOSP).

@@ -8,19 +8,41 @@ knitr::opts_chunk$set(
 
 # `r emo::ji("police_officer")` Air Law {#air-law}
 
+ICAO states. EU law. National law.
+
 ## Licensing
 
 You need a license to fly as a crew member in any aircraft. The start is usually the private pilot license (PPL). If you want to get paid for flying, you need a commercial pilot license (CPL). Furthermore, you need so-called ratings for certain privileges or for flying special aircraft types. For example, you an instrument rating is required for flying in bad weather. All the rules for obtaining a license or rating and for revalidation are stated by [part flight crew licensing (FCL) of EU regulation 1178](https://part-aero.com/#part-fcl).
 
 ## Rules of the air
 
-Another EU regulation numbered 923 formulates [standardized european rules of the air](https://www.easa.europa.eu/regulations/sera-standardised-european-rules-air) (short SERA). I list some of them below.
+Another EU regulation numbered 923 formulates [standardized european rules of the air](https://part-aero.com/#sera-regulation) (short SERA). I list some important ones below.
 
-### Controlled flights
+### Visual versus instrument flight rules
 
-### Visual flight rules
+Flights are either performed under visual flight rules (VFR) or instrument flight rules (IFR). The former means that the aircraft operates in nice and clear weather and avoids clouds, heady precipitation etc. [SERA.5005](https://part-aero.com/#part-sera/SERA.5005) formulates conditions for VFR flights. Flying under IFR avoids these meteorological requirements, however, an instrument rating and certain aircraft equipment are required, see [SERA.5015](https://part-aero.com/#part-sera/SERA.5015).
 
-### Instrument flight rules
+In the cited references you also find rules for minimum flying heights: When under IFR, you should fly at least 300 m above the highest obstacle located within 8 km of the estimated position of the aircraft, 600 m over high terrain or in mountainous areas (except for take-off or landing, obviously). Under VFR, the height minimum is lower: 150 m over rural areas.
+
+### Position reporting
+
+[SERA.8025](https://part-aero.com/#part-sera/SERA.8025) states that controlled flights must maintain two-way communications and make position reports at certain reporting points. The format is standardized:
+
+1. Aircraft identification
+
+2. Position
+
+3. Time
+
+4. Altitude
+
+5. Next position
+
+6. Ensuing point
+
+> Memory rule: All Pilots Take Aircraft Navigation Exams
+
+### Vertical seperations
 
 RVSM airspace vertical separations:
 
@@ -43,17 +65,6 @@ Minimum flight level:
 
 - 600 m (2000 ft) above highest obstacle within 8 km in mountainous areas
 - elsewhere 300 m (1000 ft)
-
-### Position reports
-
-- Aircraft ident
-- Position
-- Time
-- Altitude
-- Next position
-- Ensuing point
-
-Memory rule: APTANE (all pilot take aircraft navigation exams)
 
 ### Communication failure
 
