@@ -11,6 +11,7 @@ speed
 mass
 temperature
 air-pressure
+time
 air-law
 licensing
 rules-of-the-air
@@ -37,12 +38,15 @@ approach
 instrumentation
 flight-planning
 flight-plan
+item-7-aircraft-identification
 item-8-flight-rules-type-of-flight
 item-9-number-and-type-of-aircraft-wake-turbulence-category
 item-10-equipment
-item-13-departure-aerodrome
-item-16-flight-time
+item-13-departure-aerodrome-departure-time
+item-15-cruise-speed-cruising-level-route
+item-16-destination-aerodrome-flight-time-alternate-and-second-alternate-aerodrome
 item-18-other-information
+supplementary-information
 human-performance
 meteorology
 the-atmosphere
