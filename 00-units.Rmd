@@ -25,3 +25,7 @@ Degree Celsius, Fahrenheit, Kelvin.
 ## Air pressure
 
 Hecto pascals (hPa), millibars, inches of mercury.
+
+## Time
+
+UTC
