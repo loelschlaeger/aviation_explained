@@ -29,14 +29,10 @@ github-repo: rstudio/bookdown-demo
 
 Welcome to my continuously growing collection of knowledge about aviation. 
 
-## My qualification {-}
+Disclaimer: The collection is highly simplified. It only serves as an overview of general aviation topic. I am not a professional pilot, I only own a private pilot license. 
 
-Close to zero. I own at least a private pilot license. 
+My goal with this document is a question - answer style. Abbreviations and definitions are collected [in the last section](#abbreviations-and-definitions).
 
-## Disclaimer {-}
+The first chapter starts with a summary of common units in aviation.
 
-
-
-## Structure {-}
-
-Question - Answer style. Abbreviations and definitions are collected [in the last section](#abbreviations-and-definitions).
+Questions? Remarks? Please let me know via an [issue on GitHub](https://github.com/loelschlaeger/aviation_explained/issues/new).
