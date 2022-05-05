@@ -1,14 +1,12 @@
 # `r emo::ji("oil_drum")` Units {#units}
 
-There are soo many units in aviation. I still have to find out why. `r emo::ji("person_shrugging")`
+There are soo many units in aviation. `r emo::ji("person_shrugging")`
 
-## Vertical distance
+## Distances
 
 Vertical distances (like distance from ground) are usually expressed in meters or in feets. 
 
-## Horizontal distance
-
-Here we have nautical miles (abbreviated NM), kilometers and meters (usually for distances below 5km).
+For horizontal distances, we have nautical miles (abbreviated NM), kilometers and meters (usually for distances below 5km).
 
 ## Speed
 
